@@ -1,64 +1,63 @@
-basic html check list for web accessibility 
+<!-- git https://github.com/bdap/web-accessibility-checklist/blob/0f445efca1b8da5e00f9aa012b37bdd4999cdad3/html%20accessibility%20checklist-->
+
 <form>
-  <h2>WCAG 2.0 Accessibility Checklist</h2>
-  <fieldset>
-    <legend>Perceivable</legend>
-    <label for="perceivable-1">All text is legible and easy to read</label>
-    <input type="checkbox" id="perceivable-1" name="perceivable-1">
-    <br>
-    <label for="perceivable-2">All images and other non-text content are properly labeled with alternative text</label>
-    <input type="checkbox" id="perceivable-2" name="perceivable-2">
-    <br>
-    <label for="perceivable-3">All audio and video content includes captions or transcripts</label>
-    <input type="checkbox" id="perceivable-3" name="perceivable-3">
-    <br>
-    <label for="perceivable-4">Website layout is organized and easy to navigate</label>
-    <input type="checkbox" id="perceivable-4" name="perceivable-4">
-    <br>
-    <label for="perceivable-5">Website color scheme is not solely dependent on color to convey meaning</label>
-    <input type="checkbox" id="perceivable-5" name="perceivable-5">
-  </fieldset>
-  <fieldset>
-    <legend>Operable</legend>
-    <label for="operable-1">All functionality can be accessed and used with a keyboard</label>
-    <input type="checkbox" id="operable-1" name="operable-1">
-    <br>
-    <label for="operable-2">All links and buttons are properly labeled and easy to identify</label>
-    <input type="checkbox" id="operable-2" name="operable-2">
-    <br>
-    <label for="operable-3">All form elements, such as text fields and drop-down menus, are properly labeled and easy to use</label>
-    <input type="checkbox" id="operable-3" name="operable-3">
-    <br>
-    <label for="operable-4">Website navigation is clear and intuitive</label>
-    <input type="checkbox" id="operable-4" name="operable-4">
-    <br>
-    <label for="operable-5">Website layout is not cluttered or overwhelming</label>
-    <input type="checkbox" id="operable-5" name="operable-5">
-  </fieldset>
-  <fieldset>
-    <legend>Understandable</legend>
-    <label for="understandable-1">Content is written in clear and concise language</label>
-    <input type="checkbox" id="understandable-1" name="understandable-1">
-    <br>
-    <label for="understandable-2">Website navigation is logical and easy to follow</label>
-    <input type="checkbox" id="understandable-2" name="understandable-2">
-    <br>
-    <label for="understandable-3">
-Instructions or prompts are clear and easy to understand
-    <input type="checkbox" id="understandable-3" name="understandable-3">
-    <br>
-    <label for="understandable-4">Website layout is consistent</label>
-    <input type="checkbox" id="understandable-4" name="understandable-4">
-  </fieldset>
-  <fieldset>
-    <legend>Robust</legend>
-    <label for="robust-1">Website can be accessed and used by a wide range of devices, including assistive technologies</label>
-    <input type="checkbox" id="robust-1" name="robust-1">
-    <br>
-    <label for="robust-2">Website is compatible with different web browsers and operating systems</label>
-    <input type="checkbox" id="robust-2" name="robust-2">
-    <br>
-    <label for="robust-3">Website code is properly formatted and follows best practices</label>
-    <input type="checkbox" id="robust-3" name="robust-3">
-  </fieldset>
+<p>Perceivable:</p>
+<ul><li><input type="checkbox" id="legible_text" name="legible_text" value="legible_text"> All text is legible and easy to read</li><li><input type="checkbox" id="labeled_images" name="labeled_images" value="labeled_images"> All images and other non-text content are properly labeled with alternative text</li><li><input type="checkbox" id="captions_transcripts" name="captions_transcripts" value="captions_transcripts"> All audio and video content includes captions or transcripts</li><li><input type="checkbox" id="organized_layout" name="organized_layout" value="organized_layout"> Website layout is organized and easy to navigate</li><li><input type="checkbox" id="color_scheme" name="color_scheme" value="color_scheme"> Website color scheme is not solely dependent on color to convey meaning</li><li><input type="checkbox" id="resizable_text" name="resizable_text" value="resizable_text"> Text can be resized up to 200% without loss of content or functionality</li><li><input type="checkbox" id="color_conveying_info" name="color_conveying_info" value="color_conveying_info"> Color is not used as the sole method of conveying information or indicating an action</li></ul>
+<p>Operable:</p>
+<ul><li><input type="checkbox" id="keyboard_access" name="keyboard_access" value="keyboard_access"> All functionality can be accessed and used with a keyboard</li><li><input type="checkbox" id="labeled_links" name="labeled_links" value="labeled_links"> All links and buttons are properly labeled and easy to identify</li><li><input type="checkbox" id="labeled_form_elements" name="labeled_form_elements" value="labeled_form_elements"> All form elements, such as text fields and drop-down menus, are properly labeled and easy to use</li><li><input type="checkbox" id="clear_navigation" name="clear_navigation" value="clear_navigation"> Website navigation is clear and intuitive</li><li><input type="checkbox" id="uncluttered_layout" name="uncluttered_layout" value="uncluttered_layout"> Website layout is not cluttered or overwhelming</li><li><input type="checkbox" id="bypass_blocks" name="bypass_blocks" value="bypass_blocks"> There is at least one way to bypass blocks of content that are repeated on multiple pages</li><li><input type="checkbox" id="single_pointer" name="single_pointer" value="single_pointer"> All functionality can be operated with a single pointer, without requiring precise pointer accuracy or exceptional fine motor control</li></ul>
+<p>Understandable:</p>
+<ul><li><input type="checkbox" id="clear_language" name="clear_language" value="clear_language"> Content is written in clear and concise language</li>
+  <li><input type="checkbox" id="logical_navigation" name="logical_navigation" value="logical_navigation"> Website navigation is logical and easy to follow</li><li><input type="checkbox" id="clear_instructions" name="clear_instructions" value="clear_instructions"> Instructions or prompts are clear and easy to understand</li><li><input type="checkbox" id="consistent_layout" name="consistent_layout" value="consistent_layout"> Website layout is consistent</li><li><input type="checkbox" id="readable_text" name="readable_text" value="readable_text"> Text is readable and understandable even when read out of context</li><li><input type="checkbox" id="error_description" name="error_description" value="error_description"> If an input error is detected, the error is described to the user in text, including identifying the item where the error occurred</li><li><input type="checkbox" id="accessibility_statement" name="accessibility_statement" value="accessibility_statement"> The website includes an accessibility statement that describes the steps taken to make the website accessible and provides information about how users with disabilities can access the website</li></ul>
+<p>Robust:</p>
+<ul><li><input type="checkbox" id="wide_device_access" name="wide_device_access" value="wide_device_access"> Website can be accessed and used by a wide range of devices, including assistive technologies</li><li><input type="checkbox" id="compatible_browsers" name="compatible_browsers" value="compatible_browsers"> Website is compatible with different web browsers and operating systems</li><li><input type="checkbox" id="properly_formatted_code" name="properly_formatted_code" value="properly_formatted_code"> Website code is properly formatted and follows best practices</li><li><input type="checkbox" id="unambiguous_parsing" name="unambiguous_parsing" value="unambiguous_parsing"> Web content can be parsed unambiguously by a variety of user agents, including assistive technologies</li></ul>
 </form>
+
+
+<ol class="accessibility-criteria">
+  <li class="perceivable" id="perceivable">
+    <span class="criteria-header">Perceivable</span>
+    <ol>
+      <li class="criteria-item" id="perceivable-text">All text is legible and easy to read</li>
+      <li class="criteria-item" id="perceivable-alt-text">All images and other non-text content are properly labeled with alternative text</li>
+      <li class="criteria-item" id="perceivable-captions">All audio and video content includes captions or transcripts</li>
+      <li class="criteria-item" id="perceivable-navigation">Website layout is organized and easy to navigate</li>
+      <li class="criteria-item" id="perceivable-color-scheme">Website color scheme is not solely dependent on color to convey meaning</li>
+      <li class="criteria-item" id="perceivable-text-resize">Text can be resized up to 200% without loss of content or functionality</li>
+      <li class="criteria-item" id="perceivable-color-meaning">Color is not used as the sole method of conveying information or indicating an action</li>
+    </ol>
+  </li>
+  <li class="operable" id="operable">
+    <span class="criteria-header">Operable</span>
+    <ol>
+      <li class="criteria-item" id="operable-keyboard">All functionality can be accessed and used with a keyboard</li>
+      <li class="criteria-item" id="operable-labels">All links and buttons are properly labeled and easy to identify</li>
+      <li class="criteria-item" id="operable-form-elements">All form elements, such as text fields and drop-down menus, are properly labeled and easy to use</li>
+      <li class="criteria-item" id="operable-navigation">Website navigation is clear and intuitive</li>
+      <li class="criteria-item" id="operable-clutter">Website layout is not cluttered or overwhelming</li>
+      <li class="criteria-item" id="operable-bypass">There is at least one way to bypass blocks of content that are repeated on multiple pages</li>
+      <li class="criteria-item" id="operable-pointer">All functionality can be operated with a single pointer, without requiring precise pointer accuracy or exceptional fine motor control</li>
+    </ol>
+  </li>
+  <li class="understandable" id="understandable">
+    <span class="criteria-header">Understandable</span>
+    <ol>
+      <li class="criteria-item" id="understandable-language">Content is written in clear and concise language</li>
+      <li class="criteria-item" id="understandable-navigation">Website navigation is logical and easy to follow</li>
+      <li class="criteria-item" id="understandable-instructions">Instructions or prompts are clear and easy to understand</li>
+      <li class="criteria-item" id="understandable-consistency">Website layout is consistent</li>
+      <li class="criteria-item" id="understandable-context">Text is readable and understandable even when read out of context</li>
+  <li class="criteria-item" id="understandable-error-handling">If an input error is detected, the error is described to the user in text, including identifying the item where the error occurred</li>
+  <li class="criteria-item" id="understandable-accessibility-statement">The website includes an accessibility statement that describes the steps taken to make the website accessible and provides information about how users with disabilities can access the website</li>
+</ol>
+</li>
+<li class="robust" id="robust">
+  <span class="criteria-header">Robust</span>
+  <ol>
+    <li class="criteria-item" id="robust-devices">Website can be accessed and used by a wide range of devices, including assistive technologies</li>
+    <li class="criteria-item" id="robust-browsers">Website is compatible with different web browsers and operating systems</li>
+    <li class="criteria-item" id="robust-code">Website code is properly formatted and follows best practices</li>
+    <li class="criteria-item" id="robust-parsing">Web content can be parsed unambiguously by a variety of user agents, including assistive technologies</li>
+  </ol>
+</li>
+</ol>
+
