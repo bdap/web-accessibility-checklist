@@ -1,0 +1,64 @@
+basic html check list for web accessibility 
+<form>
+  <h2>WCAG 2.0 Accessibility Checklist</h2>
+  <fieldset>
+    <legend>Perceivable</legend>
+    <label for="perceivable-1">All text is legible and easy to read</label>
+    <input type="checkbox" id="perceivable-1" name="perceivable-1">
+    <br>
+    <label for="perceivable-2">All images and other non-text content are properly labeled with alternative text</label>
+    <input type="checkbox" id="perceivable-2" name="perceivable-2">
+    <br>
+    <label for="perceivable-3">All audio and video content includes captions or transcripts</label>
+    <input type="checkbox" id="perceivable-3" name="perceivable-3">
+    <br>
+    <label for="perceivable-4">Website layout is organized and easy to navigate</label>
+    <input type="checkbox" id="perceivable-4" name="perceivable-4">
+    <br>
+    <label for="perceivable-5">Website color scheme is not solely dependent on color to convey meaning</label>
+    <input type="checkbox" id="perceivable-5" name="perceivable-5">
+  </fieldset>
+  <fieldset>
+    <legend>Operable</legend>
+    <label for="operable-1">All functionality can be accessed and used with a keyboard</label>
+    <input type="checkbox" id="operable-1" name="operable-1">
+    <br>
+    <label for="operable-2">All links and buttons are properly labeled and easy to identify</label>
+    <input type="checkbox" id="operable-2" name="operable-2">
+    <br>
+    <label for="operable-3">All form elements, such as text fields and drop-down menus, are properly labeled and easy to use</label>
+    <input type="checkbox" id="operable-3" name="operable-3">
+    <br>
+    <label for="operable-4">Website navigation is clear and intuitive</label>
+    <input type="checkbox" id="operable-4" name="operable-4">
+    <br>
+    <label for="operable-5">Website layout is not cluttered or overwhelming</label>
+    <input type="checkbox" id="operable-5" name="operable-5">
+  </fieldset>
+  <fieldset>
+    <legend>Understandable</legend>
+    <label for="understandable-1">Content is written in clear and concise language</label>
+    <input type="checkbox" id="understandable-1" name="understandable-1">
+    <br>
+    <label for="understandable-2">Website navigation is logical and easy to follow</label>
+    <input type="checkbox" id="understandable-2" name="understandable-2">
+    <br>
+    <label for="understandable-3">
+Instructions or prompts are clear and easy to understand
+    <input type="checkbox" id="understandable-3" name="understandable-3">
+    <br>
+    <label for="understandable-4">Website layout is consistent</label>
+    <input type="checkbox" id="understandable-4" name="understandable-4">
+  </fieldset>
+  <fieldset>
+    <legend>Robust</legend>
+    <label for="robust-1">Website can be accessed and used by a wide range of devices, including assistive technologies</label>
+    <input type="checkbox" id="robust-1" name="robust-1">
+    <br>
+    <label for="robust-2">Website is compatible with different web browsers and operating systems</label>
+    <input type="checkbox" id="robust-2" name="robust-2">
+    <br>
+    <label for="robust-3">Website code is properly formatted and follows best practices</label>
+    <input type="checkbox" id="robust-3" name="robust-3">
+  </fieldset>
+</form>
